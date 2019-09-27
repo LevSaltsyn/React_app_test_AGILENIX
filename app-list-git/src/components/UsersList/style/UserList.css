@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  max-width: 500px;
+  margin: 0px auto 0 0;
+  padding: 15px 0;
+  border-top: 0.5px solid #cccccc;
+  border-bottom: 0.5px solid #cccccc;
+  text-align: left;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 7px 0 7px;
+}
+.name a {
+  text-decoration: none;
+  margin-right: 7px;
+}
+
+.work-experience {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 300;
+}
+
+.from {
+  font-weight: 300;
+  color: #ada9a9;
+  margin: 10px 0 5px;
+}
+.from i {
+  margin: 0px 5px 0 0;
+}
+
+.from .mail {
+  margin: 0 7px;
+}

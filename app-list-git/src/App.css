@@ -1,25 +1,11 @@
-
-footer {
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
-}
-
-p {
-  color: black;
-  display: inline-block;
-  margin-right: 10px;
-}
-
 .App {
-  text-align: center;
+  margin: 50px 0 0 100px;
 }
 
 .App-logo {
   height: 40px;
   position: relative;
   bottom: -7px;
-
 }
 
 .App-header {
@@ -35,4 +21,16 @@ p {
 .App-link {
   color: #09d3ac;
   margin-left: 10px;
+}
+
+p {
+  color: black;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }

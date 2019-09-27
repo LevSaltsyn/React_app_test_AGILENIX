@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        create by
+        created by
         <a
           className="App-link"
           href="https://www.linkedin.com/in/lev-saltsyn-1467ab15b/"
