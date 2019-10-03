@@ -1,0 +1,23 @@
+.Footer-logo {
+    height: 40px;
+    position: relative;
+    bottom: -7px;
+  }
+  
+  .Footer-link {
+    color: #09d3ac;
+    margin-left: 10px;
+  }
+  
+  p {
+    color: black;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }
+  

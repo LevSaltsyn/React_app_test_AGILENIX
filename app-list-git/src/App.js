@@ -1,15 +1,18 @@
 import React from "react";
-import "./App.css";
-import UsersList from "./components/UsersList";
+import UsersList from "./redux/containers/userListContainer";
 import Footer from "./components/Footer";
+import store from "./redux/store";
+import { Provider } from "react-redux";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <UsersList />
-      <Footer />
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <UsersList />
+        <Footer />
+      </div>
+    </Provider>
   );
-}
-
+};
 export default App;

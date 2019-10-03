@@ -3,16 +3,18 @@
   grid-template-columns: 20% 80%;
   max-width: 500px;
   margin: 0px auto 0 0;
-  padding: 15px 0;
+  padding: 15px 0 0 0;
   border-top: 0.5px solid #cccccc;
-  border-bottom: 0.5px solid #cccccc;
+
   text-align: left;
 }
-
+.container:last-child {
+  border-bottom: 0.5px solid #cccccc;
+}
 .name {
   font-weight: 400;
   font-size: 20px;
-  margin: 7px 0 7px;
+  margin: 0px 0 7px;
 }
 .name a {
   text-decoration: none;
