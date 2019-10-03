@@ -2,7 +2,7 @@ import {
   GET_GIT_HUB_USERS,
   WRITE_USERS,
   GET_USER_DATA
-} from "../actions/actionTypes";
+} from "./actions/actionTypes";
 import axios from "axios";
 
 export default store => next => action => {
